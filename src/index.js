@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './index.css'; // import example for other CSS documents for components. IMPORTANT 
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { useState } from 'react';
+import {Hero,About,Education,Experience,Abilities} from "./cv.js"
+import { CV } from './cv.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
