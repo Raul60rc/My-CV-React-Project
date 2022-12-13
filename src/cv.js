@@ -1,31 +1,32 @@
 export const CV = {
-    Hero:{
+    hero:{
         name: "Raul",
         lastname: "Chaudhari",
         birthdate: "6 December 1996 ",
         age: "25 Years",
-        phoneNumber: "+34 00000000",
+        phonenumber: "+34 00000000",
         github: "https://github.com/Raul60rc",
         linkedIn:"https://www.linkedin.com/in/wallstballer/",
         country: "Spain",
         city: "Tarragona",
-        image: "", // add image
+        email: "contact@wallstballer.com",
+        image: "https://media-exp1.licdn.com/dms/image/C5603AQE-74airOW6sg/profile-displayphoto-shrink_800_800/0/1645527591926?e=1674086400&v=beta&t=TUtg9nNn6tAs4-Lso1mR8Dz_cWZLAr_wjVnpXxO8C70", // add image
         aboutMe:[
             {
-                info: "I Speak fluent English, Spanish & Hindi"
+                info1: "I Speak fluent English, Spanish & Hindi"
             },
             {
-                info: "Learnt programming at Upgrade Hub intensive Bootcamp of 9 weeks which was full time, Free Code Camp, with Arduino & Udemy.",
+                info2: "Learnt programming at Upgrade Hub intensive Bootcamp of 9 weeks which was full time, Free Code Camp, with Arduino & Udemy.",
             },
             {
-                info: "I'm a great researcher who can quickly start finding solutions to problems quickly on the internet specially when working in a group of teams.",
+                info3: "I'm a great researcher who can quickly start finding solutions to problems quickly on the internet specially when working in a group of teams.",
             }
         ]
         
 
 
     },
-    Education:[
+    education:[
         {
            name: "Primary Education",
            date: "2000-2007",
@@ -51,7 +52,7 @@ export const CV = {
 
         }
     ],
-    Experience: [
+    experience: [
         {
             name: "Football Addicts Retail Store",
             position:"Sales",
@@ -72,7 +73,7 @@ export const CV = {
             date: "2020-Present"
         }
     ],
-    Languages: [
+    languages: [
         {
             language: "English",
             written: "Native",
@@ -89,7 +90,7 @@ export const CV = {
             spoken: "Native",
         },
     ],
-    Abilities: [
+    abilities: [
         
             "Web Development",
             "Programing",
@@ -102,3 +103,4 @@ export const CV = {
         
     ],
 };
+

@@ -8,7 +8,7 @@ import React from 'react'
 
 const Home = () => { // Change name of this document remove Home 
   return (
-    <div>Home</div>
+    <div></div>
   )
 }
 
