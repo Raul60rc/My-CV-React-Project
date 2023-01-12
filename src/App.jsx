@@ -8,6 +8,7 @@ import Education from './components/Education';
 import Experience from './components/Experience';
 import Languages from './components/Languages';
 import Abilities from './components/Abilities';
+import { useState } from 'react';
 
 const {hero} = CV
 
@@ -15,7 +16,7 @@ const {hero} = CV
 // Use capital letters! 
 function App() {
   return (
-    <div>
+    <div className='App'>
       <Navbar/>
       <Home/>
       <Hero hero={hero}/>
